@@ -6,8 +6,5 @@ console.log(typeof x);
 
 
 // check truthy or Falsy 
-const y = false;
-const z = "";
-const a = 1;
-const b = 0;
-console.log(!! y, !! z, !! x, !! a, !! b);
+const y = 0;
+console.log(!! y);
